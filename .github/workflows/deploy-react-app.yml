@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "18.17.0"
 
-      # cache the dependencies to speed up the build
+      # cache the dependencies to speed up the build .
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
